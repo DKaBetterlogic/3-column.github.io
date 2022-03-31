@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+.container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color white;
+    height: 100vh;
+    align-items: center;
+    /* align-content: center */
+}
+.box1{
+    color: white;
+    height: 400px;
+    max-width: 250px;
+    background-color: hsl(31, 77%, 52%);
+    order: 4;
+    /* align-self: flex-end; */
+    flex-grow: 2;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.box2{
+    color: white;
+    height: 400px;
+    max-width: 250px;
+    background-color: hsl(184, 100%, 22%);
+    order: 4;
+    /* align-self: flex-end; */
+    flex-grow: 2;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    
+}
+.box3{
+    color: white;
+    height: 400px;
+    max-width: 250px;
+    background-color: hsl(179, 100%, 13%);
+    order: 4;
+    /* align-self: flex-end; */
+    flex-grow: 2;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+h1{
+    padding: 0px 25px 0 55px;
+}
+button{
+    margin-left: 55px;
+    padding: 15px 25px 15px 25px; 
+    border-radius: 3rem;
+}
+img{
+    margin-left: 55px;
+}
+.attribution{
+    text-align: center;
+}
